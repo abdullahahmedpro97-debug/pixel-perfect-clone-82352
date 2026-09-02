@@ -159,7 +159,21 @@
   }
 
   body {
-    background-color: var(--color-background);
+    background: var(--gradient-page);
     color: var(--color-foreground);
+    font-family: var(--font-body);
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
   }
 }
+
+@utility glass-card {
+  background-color: color-mix(in oklab, var(--card) 88%, transparent);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow-chip);
+}
+
