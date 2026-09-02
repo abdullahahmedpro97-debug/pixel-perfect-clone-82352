@@ -266,7 +266,7 @@ function Index() {
                   <div className="flex items-start gap-3">
                     <Icon className="mt-0.5 h-7 w-7 shrink-0 text-primary" strokeWidth={1.5} />
                     <div>
-                      <h3 className="whitespace-pre-line text-[1.02rem] font-bold leading-snug text-foreground">
+                      <h3 className="whitespace-pre-line font-body text-[1.02rem] font-bold leading-snug text-foreground">
                         {title}
                       </h3>
                       <p className="mt-1.5 text-[0.82rem] leading-relaxed text-muted-foreground">
@@ -287,7 +287,7 @@ function Index() {
                 >
                   <div className="flex items-start gap-3">
                     <Icon className="mt-0.5 h-8 w-8 shrink-0" strokeWidth={1.4} />
-                    <h3 className="whitespace-pre-line text-[1rem] font-semibold leading-snug">
+                    <h3 className="whitespace-pre-line font-body text-[0.98rem] font-semibold leading-snug">
                       {title}
                     </h3>
                   </div>
